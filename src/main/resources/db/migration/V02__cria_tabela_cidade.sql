@@ -1,0 +1,7 @@
+CREATE TABLE cidade (
+	id INT NOT NULL AUTO_INCREMENT,
+  	nome VARCHAR(30) NOT NULL,
+	uf VARCHAR(30) NOT NULL,
+	taxa float NOT NULL,
+	PRIMARY KEY (id)
+);
